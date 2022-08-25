@@ -14,6 +14,7 @@ body {
     font-size: 1rem;
     line-height: 1;
     font-family: 'Montserrat', sans-serif;
+    color: black;
 }
 
 a {
@@ -23,3 +24,36 @@ a {
 ul, ol {
     list-style: none;
 }
+
+.header {
+    display: flex;
+    padding: 1%;
+    background: linear-gradient(140deg, #be9e44  0.00%, #d8c690);
+}
+
+.header__logo {
+    width: 20%;
+    outline: 2px solid lightblue;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 8%;
+}
+
+.nav {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    outline: 2px solid lightblue;
+}
+
+.nav__item a {
+    color: black;
+}
+
+.nav__item a:hover {
+    color: #51a59d
+} 
