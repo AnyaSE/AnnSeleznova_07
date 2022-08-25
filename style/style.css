@@ -27,8 +27,10 @@ ul, ol {
 
 .header {
     display: flex;
-    padding: 1%;
-    background: linear-gradient(140deg, #be9e44  0.00%, #d8c690);
+    position: fixed;
+    width: 100%;
+    padding: 0.5%;
+    background: #CBB26A;
 }
 
 .header__logo {
@@ -55,5 +57,16 @@ ul, ol {
 }
 
 .nav__item a:hover {
-    color: #51a59d
+    color: #51a59d;
 } 
+
+.banner__title {
+    position: absolute;
+    top: 25%;
+    margin-left: 15%;
+    font-family: "Aboreto";
+    font-size: 3rem;
+    color:#1f5d57;
+}
+
+
