@@ -15,6 +15,7 @@ body {
     line-height: 1;
     font-family: 'Montserrat', sans-serif;
     color: black;
+    background-color: silver;
 }
 
 a {
@@ -30,13 +31,12 @@ ul, ol {
     position: fixed;
     width: 100%;
     padding: 0.5%;
-    background: #CBB26A;
+    background: linear-gradient(140deg, #F5B551 0.00%, #FFFF16);
 }
 
 .header__logo {
     width: 20%;
     outline: 2px solid lightblue;
-    align-items: center;
 }
 
 .logo {
@@ -44,11 +44,10 @@ ul, ol {
 }
 
 .nav {
-    width: 40%;
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    width: 60%;
+    justify-content: space-around;
     outline: 2px solid lightblue;
 }
 
@@ -60,13 +59,22 @@ ul, ol {
     color: #51a59d;
 } 
 
-.banner__title {
-    position: absolute;
-    top: 25%;
-    margin-left: 15%;
-    font-family: "Aboreto";
-    font-size: 3rem;
-    color:#1f5d57;
+.banner {
+    display: flex;
+    background-color: white;
 }
+
+.banner__img {
+    margin: 5%;
+}
+
+.banner__title {
+    margin: 15% 5%;
+    font-family: "Aboreto";
+    font-size: 4rem;
+    line-height: 120%;
+}
+
+
 
 
