@@ -32,6 +32,7 @@ ul, ol {
     width: 100%;
     padding: 0.5%;
     background: linear-gradient(140deg, #F5B551 0.00%, #FFFF16);
+    z-index: 10;
 }
 
 .header__logo {
@@ -40,7 +41,7 @@ ul, ol {
 }
 
 .logo {
-    border-radius: 8%;
+    border-radius: 15px;
 }
 
 .nav {
@@ -94,12 +95,11 @@ ul, ol {
 }
 
 .forms {
-    display: block;
     width: 40%;
     margin: auto;
     padding: 1%;
     border: rgb(211, 211, 211) 2px solid;
-    border-radius: 10px;
+    border-radius: 15px;
     background: white;
     opacity: 80%;
 }
@@ -119,7 +119,7 @@ ul, ol {
 
 .select input {
     background:  #a09e9b;
-    border-radius: 5%;
+    border-radius: 8px;
 }
 
 input[type="submit"] {
@@ -135,6 +135,29 @@ input[type="submit"]:hover {
     transition: 1s;
     box-shadow: 10px 5px 5px silver;
 }
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product__item {
+    display: flex; 
+    flex-direction: row; 
+    padding: 1%;
+    margin: 1%;
+    width: 75%;
+    outline: pink 2px solid;
+    border-radius: 20px;
+}
+
+.img {
+    width: 25%;
+    border-radius: 20px;
+}
+
+
 
 
 
