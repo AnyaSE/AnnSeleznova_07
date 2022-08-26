@@ -38,6 +38,43 @@
             <div class="banner">
                 <img src="imgs/bg.png" alt="sunset" class="banner__img">
                 <h1 class="banner__title">Looking to get away? Plan your next trip with us</h1>
+                <button class="button">Book now</button>
+            </div>
+            <div class="forms">
+                <h2 class="forms__title">Where would you like to go?</h2>
+                <form class= "all__forms" method="post" action="https://fom.in.ua/echo">
+                    <div class="select">
+                        <label>
+                            Country
+                            <input type="text" name="country" list="country" />
+                            <datalist id="country">
+                                <option value="France">France</option>
+                                <option value="Hong Kong">Hong Kong</option>
+                                <option value="China">China</option>
+                                <option value="Indonesia">Indonesia</option>
+                                <option value="Vietnam">Vietnam</option>
+                                <option value="Singapore">Singapore</option>
+                                <option value="Turkey">Turkey</option>
+                                <option value="Canada">Canada</option>
+                            </datalist>
+                        </label>
+                    </div>
+                    <div class="select">
+                        <label>
+                            Select start date
+                            <input type="date" name="date from" min="2022-08-30" max="2023-12-31" />
+                        </label>
+                    </div>
+                    <div class="select">
+                        <label>
+                            Select end date
+                            <input type="date" name="date until" min="2022-08-30" max="2024-01-31" />
+                        </label>
+                    </div>
+                    <p>
+                        <input type="submit" value="Submit" />
+                    </p>
+                </form>
             </div>
         </section>
 </body>

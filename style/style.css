@@ -15,7 +15,7 @@ body {
     line-height: 1;
     font-family: 'Montserrat', sans-serif;
     color: black;
-    background-color: silver;
+    background: linear-gradient(140deg, #c54ecf 0.00%, #FFFF16);
 }
 
 a {
@@ -65,7 +65,7 @@ ul, ol {
 }
 
 .banner__img {
-    margin: 5%;
+    margin: 5% 5% 1% 5%;
 }
 
 .banner__title {
@@ -73,6 +73,67 @@ ul, ol {
     font-family: "Aboreto";
     font-size: 4rem;
     line-height: 120%;
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    margin-left: 70%;
+    padding: 15px;
+    width: 8%;
+    background: #31A1B0;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+.button:hover {
+    background: rgb(28, 196, 211);
+    transition: 1s;
+    box-shadow: 10px 5px 5px silver;
+}
+
+.forms {
+    display: block;
+    width: 40%;
+    margin: auto;
+    padding: 1%;
+    border: rgb(211, 211, 211) 2px solid;
+    border-radius: 10px;
+    background: white;
+    opacity: 80%;
+}
+
+.all__forms {
+    display: flex;
+    padding: 1%;
+}
+
+.forms__title {
+    display: flex;
+    margin-bottom: 1%;
+    justify-content: center;
+    font-family: "Aboreto";
+    font-size: 1.5rem;
+}
+
+.select input {
+    background:  #a09e9b;
+    border-radius: 5%;
+}
+
+input[type="submit"] {
+    padding: 20%;
+    background:  #31A1B0;
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover {
+    background: rgb(28, 196, 211);
+    transition: 1s;
+    box-shadow: 10px 5px 5px silver;
 }
 
 
