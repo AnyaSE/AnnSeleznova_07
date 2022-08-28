@@ -118,7 +118,7 @@ ul, ol {
 }
 
 .select input {
-    background:  #a09e9b;
+    background:  #dbd5cc;
     border-radius: 8px;
 }
 
@@ -140,23 +140,53 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border: #31A1B0 2px solid;
+}
+
+.product__subheading {
+    padding-top: 2%;
+    font-family: "Aboreto";
+}
+
+.product__item, .product__info {
+    display: flex;
 }
 
 .product__item {
-    display: flex; 
-    flex-direction: row; 
+    flex-direction: row;
     padding: 1%;
-    margin: 1%;
-    width: 75%;
+    margin: 2%;
+    width: 65%;
     outline: pink 2px solid;
     border-radius: 20px;
 }
 
+.product__info {
+    flex-direction: column;
+}
+
+.product__desc, .product__heading, .product__btn {
+    width: 70%;
+    border: #31A1B0 2px solid;
+    line-height: 120%;
+    padding: 1%;
+    margin: 1%;
+}
+
 .img {
-    width: 25%;
+    width: 65%;
     border-radius: 20px;
 }
 
+.product__heading {
+    font-weight: 600;
+    font-family: "Aboreto";
+}
+
+.product__btn {
+    text-decoration: underline;
+    color:rgb(10, 68, 73);
+}
 
 
 
