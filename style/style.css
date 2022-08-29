@@ -271,7 +271,19 @@ input[type="submit"]:hover {
     color: rgb(28, 196, 211);
 }
 
+.section__items, .section__content {
+    display: flex; 
+}
 
+.section__items {
+    flex-direction: column;
+}
+
+
+.section__title {
+    justify-content: center;
+    padding: 2%;
+}
 
 
 
