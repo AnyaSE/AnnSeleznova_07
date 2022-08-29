@@ -58,6 +58,7 @@ ul, ol {
 
 .nav__item a:hover {
     color: #51a59d;
+    text-decoration: underline;
 } 
 
 .banner {
@@ -241,8 +242,7 @@ input[type="submit"]:hover {
     display: flex; 
     flex-flow: row wrap; 
     justify-content: space-around;
-    background: #FDBBC9;
-
+    background: #87A825;
 }
 
 .footer__section-primary, .footer__section-secondary {
