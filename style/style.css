@@ -161,6 +161,10 @@ input[type="submit"]:hover {
     border-radius: 20px;
 }
 
+.product__item:hover {
+    box-shadow: 5px 10px #888888;
+}
+
 .product__info {
     flex-direction: column;
 }
@@ -176,6 +180,11 @@ input[type="submit"]:hover {
 .img {
     width: 65%;
     border-radius: 20px;
+    opacity: 0.7;
+}
+
+.img:hover {
+    opacity: 1;
 }
 
 .product__heading {
@@ -186,6 +195,80 @@ input[type="submit"]:hover {
 .product__btn {
     text-decoration: underline;
     color:rgb(10, 68, 73);
+}
+
+.reviews {
+    display: flex; 
+    background: white; 
+}
+
+.reviews__desc {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.review__wrap-img {
+    width: 50%;
+    padding: 1% 1% 0 1%; 
+    margin: 0 1% 0 4%;
+    border: rgb(28, 196, 211) 1px solid;
+}
+
+.reviews__heading {
+    padding: 5% 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.reviews__subitem, .reviews__customer {
+    color: #888888;
+    width: 65%;
+    padding: 1%;
+    border: rgb(28, 196, 211) 1px solid;
+}
+
+.reviews__subitem {
+    line-height: 110%;
+    font-style: italic;
+}
+
+.reviews__customer {
+    padding: 1% 0;
+}
+
+.footer__section {
+    display: flex; 
+    flex-flow: row wrap; 
+    justify-content: space-around;
+    background: #FDBBC9;
+
+}
+
+.footer__section-primary, .footer__section-secondary {
+    display: flex; 
+    flex-direction: column;
+    padding: 1%;
+    margin: 1%;
+}
+
+.footer__subtitle {
+    padding: 1%;
+    margin: 1% 1% 10% 2%;
+}
+
+.footer__content li {
+    padding: 5% 5% 10% 2%; 
+    margin: 1%;
+}
+
+.footer__content li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer__content li a:hover {
+    color: rgb(28, 196, 211);
 }
 
 
