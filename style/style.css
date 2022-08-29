@@ -279,10 +279,27 @@ input[type="submit"]:hover {
     flex-direction: column;
 }
 
+.section__content {
+    justify-content: center;
+    width: 70%;
+    margin: auto;
+    padding: 2%;
+}
 
 .section__title {
-    justify-content: center;
-    padding: 2%;
+    font: 3rem; 
+    margin: auto; 
+    padding: 7% 1% 1% 1%;
+}
+
+.section__img {
+    width: 40%; 
+    padding: 0 2%;
+}
+
+.section__desc {
+    padding: 0 2%;
+    line-height: 160%;
 }
 
 
