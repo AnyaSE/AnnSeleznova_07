@@ -119,106 +119,105 @@ input[type="submit"] {
 }
 
 .product__item {
-    padding: 1%;
-    margin: 2%;
-    width: 65%;
-    outline: pink 2px solid;
-    border-radius: 20px;
+    padding: 1%; /*adding padding for the main content section*/
+    margin: 2%; /*adding margin for the main content section*/
+    width: 65%; /*adding width for the main content section*/
+    outline: pink 2px solid; /*adding outline for the main content section*/
+    border-radius: 20px; /*adding border radius for the main content section, so the items are not square*/
 }
 
 .product__item:hover {
-    box-shadow: 5px 10px #888888;
+    box-shadow: 5px 10px #888888; /*adding hover box shadow for the main content section*/
 }
 
 .product__info {
-    flex-direction: column;
+    flex-direction: column; /*setting flex direction to column for the main items sections*/
 }
 
 .product__desc, .product__heading, .product__btn {
-    width: 70%;
-    line-height: 120%;
-    padding: 1%;
-    margin: 1%;
+    width: 70%; /*adding width for the product description, heading and "read more" link*/
+    line-height: 120%; /*adding line height*/
+    padding: 1%; /*adding padding for the product description, heading and "read more" link*/
+    margin: 1%; /*adding margin for the product description, heading and "read more" link*/
 }
 
 .img {
-    width: 65%;
-    border-radius: 20px;
+    width: 65%; /*adding width for the images*/
+    border-radius: 20px; /*adding border radius so the images are not square*/
 }
 
 .product__heading {
-    font-weight: 600;
+    font-weight: 600; /*setting product heading to be bold*/
 }
 
 [class*="btn"] {
-    text-decoration: underline;
-    color: rgb(10, 68, 73);
+    text-decoration: underline; /*setting underline styling for the links*/
+    color: rgb(10, 68, 73); /*setting colour for the links*/
 }
 
 .stationary__button {
-    display: block; 
-    position: fixed;
-    right: 0; 
-    bottom: 0;
-    padding: 1%;
-    margin: 3%;
+    display: block; /*setting display block for the stationary button*/
+    position: fixed; /*setting position fixed for the stationary button*/
+    right: 0; /*setting position right 0 for the stationary button, so the button is displayed at the right side of the screen*/
+    bottom: 0; /*setting position bottom 0 for the stationary button, so the button is displayed at the bottom of the screen*/
+    padding: 1%; /*setting padding fixed for the stationary button*/
+    margin: 3%; /*setting margin for the stationary button*/
 }
 
 .footer__section-primary, .footer__section-secondary, .footer__section {
-    display: flex;
+    display: flex; /*setting display flex for the footer sections*/
 }
 
 .footer__section {
-    flex-flow: row wrap; 
-    justify-content: space-around;
-    background: #62665c;
+    justify-content: space-around; /*ensuring the footer content is space around*/
+    background: #62665c; /*setting background colour for footer area*/
 }
 
 .footer__section-primary, .footer__section-secondary {
-    flex-direction: column;
-    padding: 1%;
-    margin: 1%;
+    flex-direction: column; /*setting column direction for the footer content*/
+    padding: 1%; /*setting padding for the footer content*/
+    margin: 1%; /*setting margin for the footer content*/
 }
 
 .footer__subtitle, .footer__content li {
-    padding: 1%;
-    margin: 1% 1% 10% 2%;
+    padding: 1%; /*setting padding for the footer subtitle and li's*/
+    margin: 1% 1% 10% 2%; /*setting margin for the footer subtitle and li's*/
 }
 
 .section__items, .section__content {
-    display: flex; 
+    display: flex;  /*setting display flex for the section items in the about page*/
 }
 
 .section__items {
-    flex-direction: column;
+    flex-direction: column; /*setting column direction for the content on the about page*/
 }
 
 .section__content, .section__title--main {
-    margin: auto; 
+    margin: auto; /*setting margin auto so the content and the title are in the middle of the page*/
 }
 
 .section__content {
-    width: 70%;
-    padding: 2%;
+    width: 70%; /*setting width for the content on the about page*/
+    padding: 2%; /*setting padding for the content on the about page*/
 }
 
 .section__title--main {
-    padding: 7% 1% 1% 1%;
+    padding: 7% 1% 1% 1%; /*setting padding for the title on the about page*/
 }
 
 h2[class$="main"] {
-    font: 2rem; 
+    font: 2rem; /*setting font size for the h2 titles on the website*/
 }
 
 .section__img {
-    width: 30%; 
-    border-radius: 20px;
-    margin: 0 2%;
+    width: 30%; /*setting width for the images on the about page*/
+    border-radius: 20px; /*setting border radius for the images on the about page, so the images are not square*/
+    margin: 0 2%; /*setting margin for the images*/
 }
 
 .section__desc {
-    padding: 0 2%;
-    line-height: 160%;
+    padding: 0 2%; /*setting padding for the section description on the about page*/
+    line-height: 160%; /*setting line height for the content on the about page*/
 }
 
 
