@@ -14,7 +14,6 @@ body {
     font-size: 1rem;
     line-height: 1;
     font-family: 'Montserrat', sans-serif;
-    color: black;
     background: linear-gradient(140deg, #c54ecf 0.00%, #FFFF16);
 }
 
@@ -26,8 +25,11 @@ ul, ol {
     list-style: none;
 }
 
-.header {
+.header, .nav, .banner {
     display: flex;
+}
+
+.header {
     position: fixed;
     width: 100%;
     padding: 0.5%;
@@ -35,31 +37,21 @@ ul, ol {
     z-index: 10;
 }
 
-.header__logo {
-    width: 20%;
-}
-
-.logo {
-    border-radius: 15px;
-}
-
 .nav {
-    display: flex;
     align-items: center;
     width: 60%;
     justify-content: space-around;
 }
 
-.nav__item a {
-    color: black;
+a[class$="link"] {
+    color: white;
 }
 
-.nav__item a:hover {
-    color: #51a59d;
-} 
+a[class$="link"]:hover {
+    color: rgb(28, 196, 211);
+}
 
 .banner {
-    display: flex;
     background-color: white;
 }
 
@@ -80,13 +72,16 @@ ul, ol {
     margin-left: 70%;
     padding: 15px;
     width: 8%;
+}
+
+[class*="button"] {
     background: #31A1B0;
     border-radius: 25px;
     color: white;
     font-weight: 600;
 }
 
-.button:hover {
+[class*="button"]:hover {
     background: rgb(28, 196, 211);
     transition: 1s;
     box-shadow: 10px 5px 5px silver;
@@ -99,17 +94,14 @@ ul, ol {
     border: rgb(211, 211, 211) 2px solid;
     border-radius: 15px;
     background: white;
-    opacity: 80%;
 }
 
-.all__forms {
+.all__forms, .forms__title {
     display: flex;
-    padding: 1%;
 }
 
 .forms__title {
-    display: flex;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     justify-content: center;
     font-family: "Aboreto";
     font-size: 1.5rem;
@@ -122,35 +114,22 @@ ul, ol {
 
 input[type="submit"] {
     padding: 20%;
-    background:  #31A1B0;
-    border-radius: 25px;
-    color: white;
-    font-weight: 600;
 }
 
-input[type="submit"]:hover {
-    background: rgb(28, 196, 211);
-    transition: 1s;
-    box-shadow: 10px 5px 5px silver;
+.product, .product__item, .product__info {
+    display: flex;
 }
 
 .product {
-    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.product__subheading {
+.product__subheading--main {
     padding-top: 2%;
-    font-family: "Aboreto";
-}
-
-.product__item, .product__info {
-    display: flex;
 }
 
 .product__item {
-    flex-direction: row;
     padding: 1%;
     margin: 2%;
     width: 65%;
@@ -188,31 +167,26 @@ input[type="submit"]:hover {
     color:rgb(10, 68, 73);
 }
 
-.stationary__link {
+.stationary__button {
     display: block; 
     position: fixed;
     right: 0; 
     bottom: 0;
     padding: 1%;
     margin: 3%;
-    background: #31A1B0;
-    border-radius: 30px 0 30px 30px;
-    color: white;
 }
 
-.stationary__link:hover {
-    background: #e2c542;
+.footer__section-primary, .footer__section-secondary, .footer__section {
+    display: flex;
 }
 
 .footer__section {
-    display: flex; 
     flex-flow: row wrap; 
     justify-content: space-around;
     background: #62665c;
 }
 
 .footer__section-primary, .footer__section-secondary {
-    display: flex; 
     flex-direction: column;
     padding: 1%;
     margin: 1%;
@@ -226,15 +200,6 @@ input[type="submit"]:hover {
 .footer__content li {
     padding: 5% 5% 10% 2%; 
     margin: 1%;
-}
-
-.footer__content li a {
-    text-decoration: none;
-    color: white;
-}
-
-.footer__content li a:hover {
-    color: rgb(28, 196, 211);
 }
 
 .section__items, .section__content {
