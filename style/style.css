@@ -37,7 +37,6 @@ ul, ol {
 
 .header__logo {
     width: 20%;
-    outline: 2px solid lightblue;
 }
 
 .logo {
@@ -49,7 +48,6 @@ ul, ol {
     align-items: center;
     width: 60%;
     justify-content: space-around;
-    outline: 2px solid lightblue;
 }
 
 .nav__item a {
@@ -58,7 +56,6 @@ ul, ol {
 
 .nav__item a:hover {
     color: #51a59d;
-    text-decoration: underline;
 } 
 
 .banner {
@@ -141,7 +138,6 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: #31A1B0 2px solid;
 }
 
 .product__subheading {
@@ -172,7 +168,6 @@ input[type="submit"]:hover {
 
 .product__desc, .product__heading, .product__btn {
     width: 70%;
-    border: #31A1B0 2px solid;
     line-height: 120%;
     padding: 1%;
     margin: 1%;
@@ -181,11 +176,6 @@ input[type="submit"]:hover {
 .img {
     width: 65%;
     border-radius: 20px;
-    opacity: 0.7;
-}
-
-.img:hover {
-    opacity: 1;
 }
 
 .product__heading {
@@ -196,44 +186,6 @@ input[type="submit"]:hover {
 [class*="btn"] {
     text-decoration: underline;
     color:rgb(10, 68, 73);
-}
-
-.reviews {
-    display: flex; 
-    background: white; 
-}
-
-.reviews__desc {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-}
-
-.review__wrap-img {
-    width: 50%;
-    padding: 1% 1% 0 1%; 
-    margin: 0 1% 0 4%;
-    border: rgb(28, 196, 211) 1px solid;
-}
-
-.reviews__heading--main {
-    padding: 5% 0;
-}
-
-.reviews__subitem, .reviews__customer {
-    color: #888888;
-    width: 65%;
-    padding: 1%;
-    border: rgb(28, 196, 211) 1px solid;
-}
-
-.reviews__subitem {
-    line-height: 110%;
-    font-style: italic;
-}
-
-.reviews__customer {
-    padding: 1% 0;
 }
 
 .stationary__link {
