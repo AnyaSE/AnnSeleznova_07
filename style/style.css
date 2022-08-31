@@ -193,7 +193,7 @@ input[type="submit"]:hover {
     font-family: "Aboreto";
 }
 
-.product__btn {
+[class*="btn"] {
     text-decoration: underline;
     color:rgb(10, 68, 73);
 }
@@ -216,10 +216,8 @@ input[type="submit"]:hover {
     border: rgb(28, 196, 211) 1px solid;
 }
 
-.reviews__heading {
+.reviews__heading--main {
     padding: 5% 0;
-    font-size: 1.5rem;
-    font-weight: 600;
 }
 
 .reviews__subitem, .reviews__customer {
@@ -302,10 +300,14 @@ input[type="submit"]:hover {
     padding: 2%;
 }
 
-.section__title {
-    font: 3rem; 
+.section__title--main {
     margin: auto; 
     padding: 7% 1% 1% 1%;
+}
+
+h2[class$="main"] {
+    font: 2rem; 
+    font-weight: 600;
 }
 
 .section__img {
