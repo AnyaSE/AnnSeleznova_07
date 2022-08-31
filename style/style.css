@@ -13,7 +13,7 @@ html {
 body {
     font-size: 1rem;
     line-height: 1;
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: linear-gradient(140deg, #c54ecf 0.00%, #FFFF16);
 }
 
@@ -33,7 +33,7 @@ ul, ol {
     position: fixed;
     width: 100%;
     padding: 0.5%;
-    background: linear-gradient(140deg, #F5B551 0.00%, #FFFF16);
+    background: linear-gradient(140deg, #F5B551 0.00%, #bdbd14);
     z-index: 10;
 }
 
@@ -61,7 +61,6 @@ a[class$="link"]:hover {
 
 .banner__title {
     margin: 15% 5%;
-    font-family: "Aboreto";
     font-size: 4rem;
     line-height: 120%;
 }
@@ -91,9 +90,8 @@ a[class$="link"]:hover {
     width: 40%;
     margin: auto;
     padding: 1%;
-    border: rgb(211, 211, 211) 2px solid;
     border-radius: 15px;
-    background: white;
+    background: rgb(235, 231, 230);
 }
 
 .all__forms, .forms__title {
@@ -103,7 +101,6 @@ a[class$="link"]:hover {
 .forms__title {
     margin-bottom: 3%;
     justify-content: center;
-    font-family: "Aboreto";
     font-size: 1.5rem;
 }
 
@@ -159,7 +156,6 @@ input[type="submit"] {
 
 .product__heading {
     font-weight: 600;
-    font-family: "Aboreto";
 }
 
 [class*="btn"] {
@@ -192,14 +188,9 @@ input[type="submit"] {
     margin: 1%;
 }
 
-.footer__subtitle {
+.footer__subtitle, .footer__content li {
     padding: 1%;
     margin: 1% 1% 10% 2%;
-}
-
-.footer__content li {
-    padding: 5% 5% 10% 2%; 
-    margin: 1%;
 }
 
 .section__items, .section__content {
@@ -210,21 +201,21 @@ input[type="submit"] {
     flex-direction: column;
 }
 
+.section__content, .section__title--main {
+    margin: auto; 
+}
+
 .section__content {
-    justify-content: center;
     width: 70%;
-    margin: auto;
     padding: 2%;
 }
 
 .section__title--main {
-    margin: auto; 
     padding: 7% 1% 1% 1%;
 }
 
 h2[class$="main"] {
     font: 2rem; 
-    font-weight: 600;
 }
 
 .section__img {
